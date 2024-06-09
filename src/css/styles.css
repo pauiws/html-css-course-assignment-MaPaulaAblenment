@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container .logo {
+  width: 150px; /* Adjust width as necessary */
+  height: auto;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+  background: #444;
+}
+
+.intro h2 {
+  margin-bottom: 10px;
+}
+
+.intro img {
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+.carousel {
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+button.prev,
+button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  margin-left: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer form {
+  display: flex;
+  align-items: center;
+}
+
+footer label {
+  margin-right: 10px;
+}
+
+footer input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #0056b3;
+}
